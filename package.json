@@ -1,0 +1,1 @@
+{"name":"jidohanbai","version":"1.0.0","private":true,"type":"module","description":"A peer-to-peer mystery file vending machine for your tailnet","scripts":{"start":"node server.js","dev":"node --watch server.js","test":"node --test"},"engines":{"node":">=22"}}
