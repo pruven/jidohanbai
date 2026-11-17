@@ -48,7 +48,7 @@ The app does not configure Tailscale, change your ACLs, or automatically discove
 
 Only deliberately contributed files are shared. Supported extensions: PNG, JPEG, GIF, WebP, TXT, Markdown, MP3, OGG, WAV, MP4, PDF. Maximum 20 MB per file and 1,000 contributions per machine. File extensions are restricted; contents are **not scanned**. Share with people you trust. Downloads are attachments and are never executed or rendered inline.
 
-Uploads stream to temporary files, then commit to local storage. Peer catalog and download routes require the shared token. Draws use Node's cryptographic random selection. Connected mode excludes this instance's own catalog. Standalone local test mode draws from your own contributions so you can verify the complete upload-to-download flow. Download tickets expire after five minutes; a restart clears them. Collection history lives in the browser session; local activity lives in server memory. Contributions persist in `DATA_DIR` until removed.
+Uploads stream to temporary files, then commit to local storage. Peer catalog and download routes require the shared token. Draws use Node's cryptographic random selection. Connected mode excludes this instance's own catalog. Standalone local test mode draws from your own contributions so you can verify the complete upload-to-download flow. Download tickets expire after five minutes; a restart clears them. The main screen focuses on vending and inline uploads. Contribution management is collapsed below the upload area; connection setup is under How it works. Local activity lives in server memory. Contributions persist in `DATA_DIR` until removed.
 
 ## Verify
 
